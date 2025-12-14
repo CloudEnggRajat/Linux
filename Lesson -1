@@ -1,76 +1,69 @@
-Here is the Markdown (.md) ready version — clean, short, and copy-paste friendly:
+# Lesson 1 — Basic Directory Navigation (Linux)
 
-# Lesson 1: Basic Directory Navigation (Linux)
+Quick reference for the most-used directory navigation commands.
 
 ## pwd
+Show current working directory.
 
-Shows the current working directory.
-
+Example:
 ```bash
 pwd
-
-
-Example output:
-
+# Output:
 /home/username
+```
 
-mkdir
+## mkdir
+Create directory (or directories).
 
-Create a directory.
-
+Create one directory, verbose:
+```bash
 mkdir -v dir1
+# Output:
+# mkdir: created directory 'dir1'
+```
 
-
--v → verbose (shows what is created)
-
-Create multiple directories with parents:
-
+Create nested directories (make parents as needed), verbose:
+```bash
 mkdir -vp dir2/dir3/dir4
+# -p → create parent directories
+# -v → verbose
+```
 
-
--p → creates parent directories if needed
-
-ls
-
+## ls
 List directory contents.
 
+Basic:
+```bash
 ls
+```
 
-
-Recursive listing:
-
+Recursive (include subdirectories):
+```bash
 ls -R
+# -R → recursive
+```
 
-
--R → shows subdirectories recursively
-
-cd
-
+## cd
 Change directory.
 
+Examples:
+```bash
 cd dir2
 cd dir3
-
+```
 
 Useful shortcuts:
+- cd ..     → parent directory
+- cd -      → previous directory
+- cd        → home directory
 
-cd ..   # parent directory
-cd -    # previous directory
-cd      # home directory
+## Summary
+- pwd → show current location  
+- mkdir → create directories (use -p for parents, -v for verbose)  
+- ls → list files/directories (use -R for recursive)  
+- cd → navigate directories (.., -, or empty for home)
 
-Summary
-
-pwd → current location
-
-mkdir → create directories
-
-ls → list files/directories
-
-cd → navigate directories
-
-
-If you want, I can also:
-- Make it **even shorter**
-- Add **examples/output**
-- Convert it into a **cheat sheet format**
-```
+If you'd like, I can:
+- Make this even shorter,
+- Add more example outputs, or
+- Convert to a 1-page cheat sheet.
