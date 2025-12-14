@@ -1,0 +1,65 @@
+Lesson 1: Basic Directory Navigation (Linux)
+pwd
+
+Shows your current working directory
+
+pwd
+
+
+Example output:
+
+/home/username
+
+mkdir
+
+Create a directory
+
+mkdir -v dir1
+
+
+-v → verbose (shows what is created)
+
+Create multiple directories with parents:
+
+mkdir -vp dir2/dir3/dir4
+
+
+-p → creates parent directories if needed
+
+ls
+
+List directory contents
+
+ls
+
+
+Recursive listing:
+
+ls -R
+
+
+-R → shows subdirectories too
+
+cd
+
+Change directory
+
+cd dir2
+cd dir3
+
+
+Useful shortcuts:
+
+cd ..   # move to parent directory
+cd -    # move to previous directory
+cd      # move to home directory
+
+Summary
+
+pwd → where you are
+
+mkdir → create directories
+
+ls → list files/directories
+
+cd → move between directories
