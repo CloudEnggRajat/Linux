@@ -3,6 +3,7 @@ Here is the Markdown (.md) ready version — clean, short, and copy-paste friend
 # Lesson 1: Basic Directory Navigation (Linux)
 
 ## pwd
+
 Shows the current working directory.
 
 ```bash
@@ -72,3 +73,4 @@ If you want, I can also:
 - Make it **even shorter**
 - Add **examples/output**
 - Convert it into a **cheat sheet format**
+```
